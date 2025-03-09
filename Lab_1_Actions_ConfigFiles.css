@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 38, 38);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* Inside section area */
+#A1 {
+    padding: 10px;
+    text-align: center;
+}

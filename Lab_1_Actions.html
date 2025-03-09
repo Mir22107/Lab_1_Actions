@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Lab 1 Actions</title>
+    <link rel="stylesheet" href="Lab_1_Actions_ConfigFiles.css">
+</head>
+
+<body>
+    <div class="A1">
+            <h1 id="T1">C2 na kulay green</h1>
+        <section id="A1">
+            <button id="T1" onclick="WantedThisButton()">Gusto mo ba nang C2 na kulay red ?</button>
+            <script>
+                function WantedThisButton() {
+                    if(document.getElementById("T1").style.color == "red"){
+                        document.getElementById("T1").style.color = "green";
+                    }else{
+                        document.getElementById("T1").style.color = "red";
+                    }
+                }
+            </script>
+        </section>
+    </div>
+</body>
