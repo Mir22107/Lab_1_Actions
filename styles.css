@@ -5,16 +5,15 @@
 }
 
 body h1 {
-    font-size: 50px;
+    font-size: 70px;
     color: rgb(255, 255, 255);
-    background-color: rgb(41, 38, 38);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    background-image: url('IMG_7115.jpeg');
 }
 
 /* Inside section area */
 #A1 {
     padding: 10px;
     text-align: center;
-    background-image: url('IMG_7115.jpeg');
 }
